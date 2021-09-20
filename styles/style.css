@@ -1,0 +1,11 @@
+.salto {
+    display: none;
+}
+
+.nombreCompleto .letras {
+    font-size: 50px;
+}
+
+.nombre {
+    text-align: center;
+}
