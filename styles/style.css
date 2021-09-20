@@ -1,11 +1,105 @@
-.salto {
-    display: none;
+body{
+    background-size: 20%;
+    
 }
 
-.nombreCompleto .letras {
-    font-size: 50px;
-}
-
-.nombre {
+h1 {
     text-align: center;
+    text-shadow: 0.2em 0.2em black;
+    color:orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+.nombreCompleto {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+
+.nombre{
+    text-align: center;
+    word-spacing: 4px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    text-transform:uppercase;
+}
+
+nav {
+    background-color: #222;
+    padding: 5px 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#perfil{
+    display: block;
+    margin:auto;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#perfil:hover {
+    
+    transform: scale(1.2);
+}
+
+a.letras:hover{
+    color:cyan;
+    font-size: 70px;
+    transition: 0.5s;
+}
+
+a.letras{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0.2em 0.2em black;
+    color: orange;
+}
+
+.sobreMi h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    text-shadow: 0.1em 0.0em red;
+    font-size: 25px;
+}
+
+.sobreMi p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.sobreMi {
+    border: 10px solid white;
+    text-align:center;
+    margin: 150px;
+    background-color: black;
+}
+
+form {
+    border: 2px solid white;
+    border-radius: 30px;
+    text-align:center;
+    
+
+}
+
+label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0.2em 0.2em black;
+    color: orange;
+    font-size: 30px;
 }
