@@ -50,7 +50,6 @@ a {
 }
 
 #perfil:hover {
-    
     transform: scale(1.2);
 }
 
@@ -102,4 +101,50 @@ label {
     text-shadow: 0.2em 0.2em black;
     color: orange;
     font-size: 30px;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid orange;
+    border-radius: 25px;
+    padding: 50px;
+    background-color: black;
+}
+
+.proyectos img {
+    width: 200px;
+    height: 250px;
+}
+
+.calculadora , .parchis  , .buscaminas , .solitario {
+    width: 100%;
+    height: 100%;
+    border: 7px dashed orange;
+    border-radius: 25px;
+    text-align: center;
+    text-shadow: 0.2em 0.2em black;
+    color: orange;
+    font-size: 25px;
+    background-color: black;
+    padding: 15px;
+    margin-right: 20px;
+    transition: 0.5s;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+
+.calculadora:hover , .parchis:hover , .buscaminas:hover , .solitario:hover {
+    transform: rotateY(180deg);
+}
+
+.lado{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.Trasero{
+    transform: rotateY(180deg);
 }
